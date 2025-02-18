@@ -1,11 +1,22 @@
-# shadcn/ui monorepo template
+[![GitHub Socialify][socialify-image]][socialify-edit-link]
 
-This template is for creating a monorepo with shadcn/ui.
+# shadcn/ui and tailwindcss v4 monorepo template
+
+This template is for creating a monorepo with Turborepo, shadcn/ui, tailwindcss v4, and react v19.
+
+## One-click Deploy
+
+You can deploy this template to Vercel with the button below:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?build-command=cd+..%2F..%2F+%26%26+pnpm+turbo+build+--filter%3Dweb...&demo-description=This+is+a+template+Turborepo+with+ShadcnUI+tailwindv4&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F2JxNyYATuuV7WPuJ31kF9Q%2F433990aa4c8e7524a9095682fb08f0b1%2FBasic.png&demo-title=Turborepo+%26+Next.js+Starter&demo-url=https%3A%2F%2Fexamples-basic-web.vercel.sh%2F&from=templates&project-name=Turborepo+%26+Next.js+Starter&repository-name=turborepo-shadcn-tailwind&repository-url=https%3A%2F%2Fgithub.com%2Flinkb15%2Fturborepo-shadcn-ui-tailwind-4&root-directory=apps%2Fweb&skippable-integrations=1)
 
 ## Usage
 
+in the root directory run:
+
 ```bash
-pnpm dlx shadcn@latest init
+pnpm install
+pnpm dev
 ```
 
 ## Adding components
@@ -13,14 +24,14 @@ pnpm dlx shadcn@latest init
 To add components to your app, run the following command at the root of your `web` app:
 
 ```bash
-pnpm dlx shadcn@latest add button -c apps/web
+pnpm dlx shadcn@canary add button -c apps/web
 ```
 
 This will place the ui components in the `packages/ui/src/components` directory.
 
 ## Tailwind
 
-Your `tailwind.config.ts` and `globals.css` are already set up to use the components from the `ui` package.
+Your `globals.css` are already set up to use the components from the `ui` package which is imported in the `web` app.
 
 ## Using components
 
