@@ -1,4 +1,4 @@
-[![GitHub Socialify][socialify-image]][socialify-edit-link]
+[![GitHub Socialify][https://turborepo-shadcn-tailwind.vercel.app/opengraph-image.png]][https://turborepo-shadcn-tailwind.vercel.app/]
 
 # shadcn/ui and tailwindcss v4 monorepo template
 
