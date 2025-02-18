@@ -1,4 +1,4 @@
-[![GitHub Socialify][https://turborepo-shadcn-tailwind.vercel.app/opengraph-image.png]][https://turborepo-shadcn-tailwind.vercel.app/]
+[![GitHub][opengraph-image]][opengraph-image-url]
 
 # shadcn/ui and tailwindcss v4 monorepo template
 
@@ -40,3 +40,6 @@ To use the components in your app, import them from the `ui` package.
 ```tsx
 import { Button } from '@workspace/ui/components/ui/button';
 ```
+
+[opengraph-image]: https://turborepo-shadcn-tailwind.vercel.app/opengraph-image.png
+[opengraph-image-url]: https://turborepo-shadcn-tailwind.vercel.app/
