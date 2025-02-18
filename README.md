@@ -41,5 +41,11 @@ To use the components in your app, import them from the `ui` package.
 import { Button } from '@workspace/ui/components/ui/button';
 ```
 
+## More Resources
+
+- [shadcn/ui - Monorepo](https://ui.shadcn.com/docs/monorepo)
+- [Turborepo - shadcn/ui](https://turbo.build/repo/docs/guides/tools/shadcn-ui)
+- [TailwindCSS v4 - Explicitly Registering Sources](https://tailwindcss.com/docs/detecting-classes-in-source-files#explicitly-registering-sources)
+
 [opengraph-image]: https://turborepo-shadcn-tailwind.vercel.app/opengraph-image.png
 [opengraph-image-url]: https://turborepo-shadcn-tailwind.vercel.app/
