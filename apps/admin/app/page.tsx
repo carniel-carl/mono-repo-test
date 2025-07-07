@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Home() {
 	const home = process.env.NEXT_PUBLIC_HOME_URL || '/';
 
-	console.log('Home URL:', home);
+	// console.log('Home URL:', home);
 	return (
 		<div>
 			<div className="mb-10">
