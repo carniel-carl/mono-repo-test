@@ -1,4 +1,5 @@
 import type { NextConfig } from 'next';
+
 import path from 'path';
 import dotenv from 'dotenv';
 
@@ -10,7 +11,6 @@ dotenv.config({
 const isDev = process.env.NODE_ENV === 'development';
 
 const nextConfig: NextConfig = {
-	/* config options here */
 	basePath: '/admin',
 	experimental: { externalDir: true },
 	transpilePackages: ['@workspace/ui'],

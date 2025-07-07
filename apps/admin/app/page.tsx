@@ -3,18 +3,20 @@ import { cn } from '@workspace/ui/lib/utils';
 import Link from 'next/link';
 
 export default function Home() {
-	const home = process.env.NEXT_PUBLIC_HOME_URL || '';
+	const home = process.env.NEXT_PUBLIC_HOME_URL || '/';
 
+	console.log('Home URL:', home);
 	return (
 		<div>
 			<div className="mb-10">
-				<a href={home} className={cn(buttonVariants({ variant: 'default' }))}>
+				<a href={home} className={cn(buttonVariants({}))}>
 					Go to home
 				</a>
-				<Link href="/" className={cn(buttonVariants({ variant: 'default' }))}>
+				<a href="/admin" className={cn(buttonVariants({ variant: 'default' }))}>
 					Go to Admin
-				</Link>
+				</a>
 			</div>
+
 			<h1 className={cn('text-3xl font-bold underline')}>Admin App</h1>
 		</div>
 	);
